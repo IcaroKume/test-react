@@ -1,7 +1,7 @@
 import React from 'react';
 import HomeStore from '../stores/HomeStore.js';
 import HomeActions from '../actions/HomeActions.js';
-import Hello from './Hello.jsx';
+import Hello from '../components/Hello.jsx';
 
 var Home = React.createClass({
   getInitialState() {
