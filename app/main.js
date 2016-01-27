@@ -73,7 +73,7 @@ const App = React.createClass({
               </LeftNav>
 
               <header>
-                <AppBar title='ZoomFleet' onLeftIconButtonTouchTap={this.handleToggle}
+                <AppBar title='test-react' onLeftIconButtonTouchTap={this.handleToggle}
                   isInitiallyOpen={true}
                   />
               </header>
@@ -89,6 +89,8 @@ render((
                 <Route path="/" component={App}>
                     <IndexRoute component={Home} />
                     <Route path="news" component={News} />
+
+                    <Route path="*" component={Home}/>
                 </Route>
         </Router>
     </IntlProvider>
