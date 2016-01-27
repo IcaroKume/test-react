@@ -1,2 +1,2 @@
 # test-react
-A sample project using react, alt, router and webpack.
+A sample project using react, alt, router, material-ui and webpack.
